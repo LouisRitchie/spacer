@@ -8,7 +8,7 @@ output = ""
 lastLine = ""
 
 for line in file1:
-  if len(line) == 0:
+  if line.isspace():
     continue
   if '}' in line and counter >= 0:
     counter -= 1
