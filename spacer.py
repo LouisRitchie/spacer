@@ -13,12 +13,9 @@ for line in file1:
     continue
   if '}' in line and counter >= 0:
     counter -= 1
-    addNewline = True
   output += "  " * counter + line.replace("\n", "").replace("  ", "") + "\n"
   if '{' in line:
     counter += 1
-  if addNewline:
-    output += "\n"
 
 if output[-1] != "\n":
   output += "\n"
