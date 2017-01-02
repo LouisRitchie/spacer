@@ -1,6 +1,8 @@
 # Spacer
 ## Command line tool to fix CSS indentation with 2 spaces
 
+![running spacer on sample .scss file](spacer_animation.gif)
+
 Sometimes I'd find myself copy-pasting large amounts of CSS from one file to another. I mainly use Vim, and when I'd paste into a Vim window, the indentation would get messed up from my `.vimrc`:
 
 ```
@@ -17,8 +19,7 @@ So I could find-and-replace with `%s/  //g` but after that I'd still be manually
 ```
 git clone https://github.com/louisritchie/spacer
 cd spacer
-cp spacer.py spacer
-mv spacer /usr/local/bin
+cp spacer.py /usr/bin/spacer
 spacer YOUR-CSS-FILE
 
 ```
