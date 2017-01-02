@@ -1,5 +1,5 @@
 # Spacer
-## Command line tool to fix CSS indentation with 2 spaces
+## Command line tool to fix CSS indentation (2 spaces for tabs)
 
 ![running spacer on sample .scss file](spacer_animation.gif)
 
